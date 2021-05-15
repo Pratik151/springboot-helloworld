@@ -1,0 +1,8 @@
+---
+- hosts: webservers 
+  become: True
+  tasks:
+    - name: Copy file to host
+      copy:
+        src: .
+        dest: /home/ec2-user/app/
