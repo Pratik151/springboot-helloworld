@@ -8,4 +8,4 @@
         dest: /home/ec2-user/app/
     - name: Start java app
       shell: |
-        java -jar target/helloworld-0.0.1-SNAPSHOT.jar
+        java -jar /home/ec2-user/app/helloworld-0.0.1-SNAPSHOT.jar
