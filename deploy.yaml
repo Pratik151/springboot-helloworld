@@ -4,5 +4,5 @@
   tasks:
     - name: Copy file to host
       copy:
-        src: ./target/*
+        src: /target/helloworld-0.0.1-SNAPSHOT.jar
         dest: /home/ec2-user/app/
