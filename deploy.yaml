@@ -4,5 +4,5 @@
   tasks:
     - name: Copy file to host
       copy:
-        src: .
+        src: ./target/*
         dest: /home/ec2-user/app/
